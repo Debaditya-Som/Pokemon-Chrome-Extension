@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Random Pokémon Generator",
+    "version": "1.0",
+    "description": "Displays a random Pokémon name and image every 5 seconds.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+      }
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
